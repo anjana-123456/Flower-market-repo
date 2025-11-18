@@ -174,8 +174,8 @@ nav ul{
 .plants-lover{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap:60px ;
+    justify-content: center;
+    gap:80px ;
     width: 100%;
     max-width: 1400px;
     
@@ -209,6 +209,10 @@ nav ul{
     margin-bottom: 12px;
 }
 .lower-store{
+    width: 540px;
+    height: 597px;
+    
+
     
 }
 .badge{
@@ -280,14 +284,24 @@ nav ul{
 }
 /*small card (left)*/
 .Bloom-plant,.Ana-plant{
+    content: "";
    
     width: 367px;
-    height: 195px;
+    height: 193px;
     background-size: cover;
     padding: 25px;
     border-radius: 14px;
     color: rgba(200, 200, 200, 1);
     text-align: center;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.4);
+
+    
+    
+    
+    
+
+    
     
 }
 /*Big right card*/
@@ -300,8 +314,22 @@ nav ul{
     color:rgba(200, 200, 200, 1);
     margin-right: 100px;
     text-align: center;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.4);
 
+     
+
+    
+    
 }
+
+    
+    
+
+    
+    
+
+
 /* Text inside card*/
 .Bloom-plant h2,
 .Ana-plant h2{
@@ -310,6 +338,7 @@ nav ul{
     text-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.4);
     margin: 65px 50px 15px 49px;
     color: rgba(255, 255, 255, 1);
+
 
 } 
 .Bloom-plant a,
@@ -326,7 +355,7 @@ nav ul{
     font-size:40px ;
     font-weight:bold ;
     text-shadow: 1px 1px  4px rgba(0, 0, 0, 0.4);
-    margin: ;
+    margin: 172px 127px 15px 128px;
     color: rgba(255, 255, 255, 1);
 }
 .zabo-plant a{
@@ -334,7 +363,117 @@ nav ul{
     font-weight:600 ;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     color: rgba(255, 255, 255, 1);
+    margin: 0px 241px 151px 242px;
 }
+/*subscribe-section*/
+.Subscribe-Section{
+    width: 100%;
+    height: 423px;
+    background-size: cover;
+    padding: 40px;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+    text-align: center;
+    margin-top: 120px;
+    
+
+}
+
+.Subscribe-Section h1{
+    margin: 199px 427px 23px 427px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.subscribe-box{
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.Subscribe-Section input{
+    flex: 1;
+    width: 644px;
+    height: 55px;
+    padding: 0 15px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    line-height: 55px;
+    box-sizing: border-box;
+}
+.Subscribe-Section button{
+    width: 186px;
+    height: 55px;
+    background-color: rgba(233, 90, 8, 1);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0 25px;
+    
+}
+
+
+/*footer-section*/
+.footer{
+    width: 100%;
+    display: flex;
+    
+    align-items: flex-start;
+    padding: 40px  ;
+    
+
+}
+.footer-links{
+    display: flex;
+    gap: 110px;
+    margin:40px 110px 40px 0px;
+}
+.footer-left{
+    margin: 40px 115px 40px 100px;
+    
+}
+.footer-left p{
+    font-size: 22px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.5) ;
+    margin-top: 16px;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.home{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    
+    
+}
+.footer-icons{
+    display: flex;
+    gap: 24px;
+   /* align-items: flex-start;*/
+    margin: 40px 100px 40px 115px;
+}
+.link{
+    width: 36px;
+    height: 36px;
+}
+
+
+
     
 
 
