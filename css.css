@@ -454,7 +454,7 @@ nav ul{
 
 
 
-.home{
+.col-p{
     font-size: 16px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
@@ -471,21 +471,366 @@ nav ul{
     width: 36px;
     height: 36px;
 }
+@media (max-width:576px){
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0px 0px 16px;
+        width: 100%;
+
+    }
+    .faugy{
+        width: 50px;
+    }
+    nav ul,
+    .home,
+    .shop{
+        display: none;
+    }
+    .shopping-cart{
+        display: flex;
+        font-size: 16px;
+        font-weight:500 ;
+        gap: 8px;
+    }
+    .nav-links{
+        margin: 45px 16px 0px 0px;
+
+    }
+    /* hero section */
+    .always-fresh{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        
+        
+    }
+    .flower{
+        width: 100%;
+        display: block;
+        margin: 15px 0px 15px 0px;
+
+
+    }
+    .container{
+        margin: 0px 16px 0px 16px;
+        text-align: left;
+
+    }
+    .black,
+    .orange{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .always-fresh p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* our plant section */
+    .plant-section{
+        padding: 0px 16px;
+        margin-top: 15px;
+    }
+    .our,
+    .plant{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .plant-section p{
+        font-size: 14px;
+        font-weight: 500;
+        align-items: center;
+
+    }
+    .product-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8px;
+    }
+    .cart{
+        width: 100%;
+
+    }
+    .sample{
+        width: 100%;
+
+    }
+    .life{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .usd{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .button{
+        width: 100%;
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+    }
+    /*flower $ plant lovers */
+     .plants-lover{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 0px 5px;
+        
+    
+    }
+
+    .plant-img{
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        
+        
+    }
+    .flower-store{
+        width: 100%;
+        display: block;
+        height: auto;
+        
+
+    }
+    .badge{
+        display: none;
+    }
+    .text-container{
+        margin: 10px 16px 0px 16px;
+    }
+    
+
+
+
+    .flower-h1{
+        font-size: 24px;
+        font-weight: bold;
+        display: inline-block;
+        
+        
+    }
+    .flower-h1 br{
+        display: none;
+
+    }
+    
+    .beauty li{
+        font-size: 14px;
+        font-weight: 500;
+        gap: 16px;
+    }
+    .li{
+        gap: 16px;
+    }
+    /* Latest Deals */
+    .latest-deals{
+        text-align: center;
+        align-items: center;
+        display: inline;
+        padding: 0px 16px;
+        margin-top: 30px;
+    }
+    .Latest{
+        font-size: 24px;
+        font-weight: bold;
+        
+    }
+    
+        
+    .latest-deals p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .offer-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 4px;
+        margin-left: 16px;
+        margin-right: 16px;
+        align-items: center;
+        
+        
+        
+        
+
+    }
+    .offer-left{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 16px 0px 16px;
+
+        
+    
+
+        
+        
+    }
+    .Bloom-plant,.Ana-plant{
+        width: 90%;
+        margin: 0px 16px 0px 16px;
+        display: block;
+        text-align: center;
+        gap: 10px;
+        background-size: cover;
+        background-position: center;
+
+
+
+
+    }
+    .zabo-plant{
+        width: 75%;
+        height: 197px;
+        display: block;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        margin: 0px 16px 0px 16px;
+
+
+    }
+
+
+
+
+    .Bloom-plant h2,.Ana-plant h2{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .Bloom-plant a, .Ana-plant a{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .zabo-plant h2{
+        font-size: 20px;
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+        margin: 60px 20px 26px 21px;
+
+        
+        
+        
+    }
+    .zabo-plant a{
+        font-size: 16px;
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+        margin: 0px 30px 0px 31px;
+        
+    }
+    /* Subscribe-Section */
+    .section-3{
+        width: 100%;
+    }
+
+    .Subscribe-Section{
+        width: 100%;
+        height: 275px;
+        display: block ;
+        background-size: cover;
+        background-position: center;
+        margin-top: 44px;
+    }
+    .Subscribe-Section h1{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 100px 70px 0px 70px;
+        text-align: center;
+    }
+    .subscribe-box{
+        display: inline-flex;
+        align-items: center;
+        overflow: hidden;
+        width: 300px;
+        height: 50px;
+        margin: 23px 25px 0px 25px;
+
+    }
+    .Subscribe-Section input{
+        width: 192px;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+    .Subscribe-Section button{
+        width: 108px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /*foote section */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        
+        width: 393px;
+        height: 1000px;
+
+    }
+    .footer-left{
+        margin: 50px 0px 0px 20px;
+        text-align: left;
+
+    }
+    .footer-left img{
+        width: 180px;
+        height: 109px;
+    }
+    .footer-left p{
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+        align-items: left;
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 0px 20px;
+        gap: 20px;
+
+
+    }
+    .col{
+        
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .col-p{
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+        align-items: left;
+    }
+    .footer-icons{
+        display: flex;
+        gap: 15px;
+        margin: 20px 0px 50px 20px;
+        align-items: left;
+    }
+    .link{
+        width: 30px;
+        height: 30px;
+
+    }
+
+
 
 
 
     
 
-
-
-
-
-
-
- 
-
-
-
-
-
-
+}
